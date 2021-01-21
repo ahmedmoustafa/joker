@@ -17,7 +17,7 @@ character played by:
 
   - Heath Ledger in The Dark Knight 2008
 
-![Joaquin Phoenix](pics/ledger.jpg%22)
+![Joaquin Phoenix](pics/ledger.jpg)
 
 <img src="man/figures/README-print.ledger-1.png" width="100%" />
 

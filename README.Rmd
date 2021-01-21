@@ -30,7 +30,7 @@ joker("phoneix")
 
 - Heath Ledger in The Dark Knight 2008
 
-![Joaquin Phoenix](pics/ledger.jpg")
+![Joaquin Phoenix](pics/ledger.jpg)
 
 ```{r print.ledger, echo=FALSE}
 library(joker)
