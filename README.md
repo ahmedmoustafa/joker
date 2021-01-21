@@ -43,7 +43,7 @@ y = c(10, 20, 30, 40, 50)
 ggplot() +
   geom_bar(aes(x = x, y = rev(y), fill = x), stat = "identity") +
   scale_fill_manual(values = joker("phoneix")) +
-  ggtitle("Bar plot using Joker phoneix colors")
+  ggtitle("Barplot with the Joker phoneix colors")
 ```
 
 <img src="man/figures/README-example.phoneix-1.png" width="100%" />
@@ -58,7 +58,7 @@ y = c(10, 20, 30, 40, 50)
 ggplot() +
   geom_bar(aes(x = x, y = rev(y), fill = x), stat = "identity") +
   scale_fill_manual(values = joker("ledger")) +
-  ggtitle("Bar plot using Joker ledger colors")
+  ggtitle("Barplot with the Joker ledger colors")
 ```
 
 <img src="man/figures/README-example.ledger-1.png" width="100%" />
