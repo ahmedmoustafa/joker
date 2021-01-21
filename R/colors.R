@@ -29,7 +29,7 @@ joker_palettes <- list(
 #'
 #' @examples
 #' joker("phoneix")
-#' joker("heath", 3)
+#' joker("ledger", 3)
 
 joker <- function(name, n) {
 

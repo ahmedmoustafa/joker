@@ -19,6 +19,6 @@ A vector of colors.
 Joker palette generator
 }
 \examples{
-joker("joker_2019")
-joker("joker_2019", 3)
+joker("phoneix")
+joker("ledger", 3)
 }
