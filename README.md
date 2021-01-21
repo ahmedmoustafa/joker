@@ -38,10 +38,10 @@ library(joker)
 library(ggplot2)
 
 x = c("A", "B", "C", "D", "E")
-y = c(10, 20, 30, 40, 50)
+y = c(50, 40, 30, 20, 10)
 
 ggplot() +
-  geom_bar(aes(x = x, y = rev(y), fill = x), stat = "identity") +
+  geom_bar(aes(x = x, y = y, fill = x), stat = "identity") +
   scale_fill_manual(values = joker("phoneix")) +
   ggtitle("Barplot with the Joker phoneix colors")
 ```
@@ -53,10 +53,10 @@ library(joker)
 library(ggplot2)
 
 x = c("A", "B", "C", "D", "E")
-y = c(10, 20, 30, 40, 50)
+y = c(50, 40, 30, 20, 10)
 
 ggplot() +
-  geom_bar(aes(x = x, y = rev(y), fill = x), stat = "identity") +
+  geom_bar(aes(x = x, y = y, fill = x), stat = "identity") +
   scale_fill_manual(values = joker("ledger")) +
   ggtitle("Barplot with the Joker ledger colors")
 ```
