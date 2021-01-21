@@ -10,12 +10,12 @@
 Joker is a toy package to provide a color palette based on the Joker
 character played by:
 
-  - Joaquin Phoenix in Joker 2019
+## Joaquin Phoenix in Joker 2019
 
 ![Joaquin Phoenix](pics/phoneix.jpg)
 <img src="man/figures/README-print.phoneix-1.png" width="100%" />
 
-  - Heath Ledger in The Dark Knight 2008
+## Heath Ledger in The Dark Knight 2008
 
 ![Joaquin Phoenix](pics/ledger.jpg)
 
