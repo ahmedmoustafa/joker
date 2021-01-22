@@ -7,8 +7,8 @@
 
 <!-- badges: end -->
 
-*This package is based on Cianna Bedford-Petersen’s package
-[inauguration](https://github.com/ciannabp/inauguration)*
+**This package is based on Cianna Bedford-Petersen’s package
+[inauguration](https://github.com/ciannabp/inauguration)**
 
 `joker` is a toy R package to provide a color palette based on the Joker
 character played by:
@@ -36,7 +36,7 @@ devtools::install_github("ahmedmoustafa/joker")
 
 ## Example
 
-### A barplot using `phoneix` colors
+### A barplot with the joker `phoneix` colors
 
 ``` r
 library(joker)
@@ -52,7 +52,8 @@ ggplot() +
 ```
 
 <img src="man/figures/README-example.phoneix-1.png" width="100%" />
-\#\#\# A barplot using `ledger` colors
+
+### A barplot with the joker `ledger` colors
 
 ``` r
 library(joker)
