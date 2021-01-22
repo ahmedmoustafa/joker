@@ -1,13 +1,16 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# joker
+# Joker
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-Joker is a toy package to provide a color palette based on the Joker
+*This package is based on Cianna Bedford-Petersen’s package
+[inauguration](https://github.com/ciannabp/inauguration)*
+
+`joker` is a toy R package to provide a color palette based on the Joker
 character played by:
 
 ## Joaquin Phoenix in Joker 2019
@@ -33,6 +36,8 @@ devtools::install_github("ahmedmoustafa/joker")
 
 ## Example
 
+### A barplot using `phoneix` colors
+
 ``` r
 library(joker)
 library(ggplot2)
@@ -47,6 +52,7 @@ ggplot() +
 ```
 
 <img src="man/figures/README-example.phoneix-1.png" width="100%" />
+\#\#\# A barplot using `ledger` colors
 
 ``` r
 library(joker)

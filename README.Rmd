@@ -13,12 +13,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# joker
+# Joker
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Joker is a toy package to provide a color palette based on the Joker character played by:
+*This package is based on Cianna Bedford-Petersen's package [inauguration](https://github.com/ciannabp/inauguration)*
+
+`joker` is a toy R package to provide a color palette based on the Joker character played by:
 
 ## Joaquin Phoenix in Joker 2019
 
@@ -47,6 +49,8 @@ devtools::install_github("ahmedmoustafa/joker")
 ```
 ## Example
 
+### A barplot using `phoneix` colors
+
 ```{r example.phoneix}
 library(joker)
 library(ggplot2)
@@ -60,6 +64,8 @@ ggplot() +
   ggtitle("Barplot with the Joker phoneix colors")
 
 ```
+### A barplot using `ledger` colors
+
 ```{r example.ledger}
 library(joker)
 library(ggplot2)
